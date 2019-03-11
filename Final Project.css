@@ -1,0 +1,47 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #ede81a;
+}
+.jumbotron {
+	background-color: #9eed1a;
+}
+.carousel-item img {
+	width: 70%;
+	display: block;
+	margin: auto;
+
+}
+#messageform {
+	padding: 60px 10%;
+}
+#mod {
+	display: block;
+	margin: auto;
+}
+h3 {
+	font-size: 20px;
+
+}
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+#main-paragraph-tital {
+	font-size: 20px;
+	font-family: 'Signika Negative', sans-serif;
+}
+.nav-link {
+	font-size: 200%;
+	font-family: 'Patua One', cursive;
+}
+.navbar-brand {
+	font-size: 300%;
+	font-family: 'Acme', sans-serif;
+}
+#aboutus {
+	padding: 3% 5%;
+}
+#aboutus-me {
+	font-family: 'Oleo Script', cursive;
+}

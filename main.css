@@ -1,0 +1,182 @@
+/*body {background-color: yellow;
+}
+
+	
+h2 {
+	text-align: center;
+	font-size: 40px;
+	color: pink;
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-decoration: bold;
+}
+h3 {
+	color: orange;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+	display: block;
+	margin: auto;
+	color: blue;
+	font-size: 30px;
+	text-decoration: underline;
+}
+a {
+	color: pink;
+	font-size: 30px;
+	line-height: 0.8;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bolder;
+}
+img {
+	display: block;
+	margin: auto;
+	width: 70%;
+	border-radius: 50px;
+}
+#div1 {
+	background-color:#2a3b4c;
+
+}
+#div? {
+	text-align: center;
+	vertical-align: middle;
+}
+#title {
+	background: radial-gradient(gold, aqua);
+	padding: 100px 575px;
+	margin-bottom:10px;
+	text-align: center;
+	border: 5px double black;
+	transition-duration: 1s;
+	font-size: 60px;
+	font-family: cursive;
+	display: block;
+	margin: auto;
+}
+
+#title:hover {
+	background: radial-gradient(aqua, gold);
+	letter-spacing: 17px;
+	transform: rotate(10deg)
+}
+#growslant {
+	background: radial-gradient(red, aqua);
+	padding: 1%;
+	margin-bottom:10px;
+	text-align: center;
+	border: 5px double black;
+	transition-duration: 1s;
+	font-size: 40px;
+	font-family: cursive;
+	display: block;
+	margin: auto;
+}
+#growslant:hover {
+	background: radial-gradient(purple, gold);
+	letter-spacing: 17px;
+	transform: rotate(10deg) scale(1.5)
+}
+#borderless {
+	background: radial-gradient(blue, orange);
+	padding: 1%;
+	margin-bottom:10px;
+	text-align: center;
+	transition-duration: 1s;
+	font-size: 40px;
+	font-family: cursive;
+	display: block;
+	margin: auto;
+	border: none;
+}
+#borderless:hover {
+		border: 10px double black;
+		letter-spacing: 17px;
+}
+#fade {
+	background-color: aqua;
+	padding: 1%;
+	margin-bottom:10px;
+	text-align: center;
+	transition-duration: 1s;
+	font-size: 30px;
+	font-family: cursive;
+	display: block;
+	margin: auto;
+	border: none;
+}
+#fade:hover {
+	background-color: gold;
+}
+#shadow {
+	background: linear-gradient(45deg, gold, aqua);
+	padding: 1%;
+	margin-bottom:10px;
+	text-align: center;
+	transition-duration: 1s;
+	font-size: 30px;
+	font-family: cursive;
+	display: block;
+	margin: auto;
+	border: none;
+}
+#shadow:hover {
+	box-shadow: 0px 0px 50px black;
+}
+#butt {
+	padding: 100px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10px;
+	border: 5px double black;
+	color: blue;
+	background: radial-gradient(aqua, gold);
+	transition-duration: 10s;
+	letter-spacing: 15px;
+
+}
+#butt:hover {
+	background: linear-gradient(45deg, aqua, orange);
+	letter-spacing: 20px;
+	transform: rotate(360deg) scale(1.1);
+}
+@media only screen and (max-width: 768px) { 
+	#butt {
+		font-size:10px;
+	}
+}*/
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #ede81a;
+}
+.jumbotron {
+	background-color: #9eed1a;
+}
+p {
+	background: linear-gradient(45deg, aqua, gold)
+}
+.carousel-item img {
+	width: 70%;
+	display: block;
+	margin: auto;
+
+}
+#messageform {
+	padding: 60px 10%;
+}
+#mod {
+	display: block;
+	margin: auto;
+}
+h3 {
+	font-size: 20px;
+
+}
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+#main-paragraph-tital {
+	font-size: 15px;
+}

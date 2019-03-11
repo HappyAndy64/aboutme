@@ -1,0 +1,12 @@
+Content
+Padding
+Border
+Margin
+
+Padding & margin are used to create spacing
+
+If have 4 arguments
+Padding and Margin can take 1,2,or 4
+You can use %
+Border is 3 arguments
+Width,style,and color
