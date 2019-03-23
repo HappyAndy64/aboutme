@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html> <!--This is the homepage -->
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -8,15 +8,15 @@
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
     	<script src="Final.js"></script>
     	<link href="https://fonts.googleapis.com/css?family=Acme|Patua+One|Raleway|Signika+Negative:600" rel="stylesheet">
-		<link rel="stylesheet" href="Final Project.css"
+		<link rel="stylesheet" href="Final Project.css">
 	</head>
-
+		
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="index.html">SurveyBanana</a>
+		  <a class="navbar-brand" href="index.html">Andy Zhang</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -26,36 +26,32 @@
 		        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="aboutus.html">About Us</a>
+		        <a class="nav-link" href="aboutus.html">About Me</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Social Media</a>
-		      </li>
+		        <a class="nav-link" href="contactme.html">Contact Me!</a>
+		      </l1>
 		      <li class="nav-item dropdown">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Available Surveys
+		          My Vacations
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-		          <a class="dropdown-item" href="basicinfo.html">Basic Info</a>
-		          <a class="dropdown-item" href="#">Games Quiz</a>
-		          <a class="dropdown-item" href="#">...</a>
+		          <a class="dropdown-item" href="florida.html">Florida!</a>
+		          <a class="dropdown-item" href="utahArizonaTrip.html">Utah & Arizona</a>
 		        </div>
 		      </li>
 		    </ul>
 		  </div>
-		</nav>
+		</nav>		<h4 id="head">Message Sender and Contact Info!</h4>
 		<div id="messageform">
-			<h4>Please answer all of the questions truthfully and thoughtfully, any fake info would not be used</h4>
-			<input class="form-control" onkeydown="cookieSave('cookieBasicName','my cookie', exp)" placeholder="Type Your Name Here...">
-			<input class="form-control" placeholder="Enter Your Email Here...">
-			<h4>What is your favorite sport?</h4>
-			<input class="form-control" type="text" placeholder="Type Your Answer Here..."></input>
-			<h4>What is your favorite food/drink?</h4>
-			<input class="form-control" type="text" placeholder="Type Your Answer Here..."></input>
-			<h4>Do you like school?</h4>
-			<input class="form-control" type="text" placeholder="Type Your Answer Here..."></input>
-			<button class="btn btn-success">Submit</button>
+			<h4>Send Me A Message!</h4>
+			<input class="form-control" type="text" id="name" placeholder="Type Your Name Here...">
+			<input class="form-control" type="text" id="email" placeholder="Enter Your Email Here...">
+			<textarea class="form-control" id="message" placeholder="Type Your Message Here..."></textarea>
+			<button onclick="validate()" class="btn btn-success">Submit Your Message</button>
+			<p id="errormessage"></p>
 		</div>
-		<input type="button" value="Get Cookie Value" onClick="this.form.tf.value = getCookie('cookieBasicName')">
-		<input type="text" name="tf" size="30">
-</html>
+		<h3>My Email: andyzhang0607@gmail.com</h3>
+		<h3>Twitter: N/A</h3>
+		<h3>Facebook: N/A</h3>
+		<h3>

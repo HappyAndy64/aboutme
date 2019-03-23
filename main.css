@@ -180,3 +180,8 @@ body {
 #main-paragraph-tital {
 	font-size: 15px;
 }
+#div1 {
+	width: 300px;
+	height: 100px;
+	background-color: gold;
+}

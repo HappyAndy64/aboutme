@@ -24,7 +24,7 @@ alert(boo)*/
 
 //alert(addSquares(2,3))
 
-function concat(str1, str2) {
+/*function concat(str1, str2) {
 	return(str1 + str2);
 
 }
@@ -36,3 +36,29 @@ function triProduct(a, b, c) {
 	alert(a*b*c)
 }
 alert(triProduct(10, 11, 12))
+function slide() {
+	$("#div1").toggle();
+}
+function change() {
+	$("#p1").html("REE")
+	$("#p1").css("font-size", "100px")
+}
+function alertValue() {
+	alert($("#name").val())
+}*/
+function validate() {             //You Need this
+	var missing = []
+	if($("#name").val() == "")
+			missing.push("name")
+		if($("#email").val() == "")
+			missing.push("email")
+	if($("#message").val() == "")
+		missing.push("message")
+	if(missing.length>0) {
+		$("#errormessage").css("color", "red")
+		$("#errormessage").html("You are missing:" + missing)
+		} 
+	else {
+		$("#errormessage").css("color", "green")
+		$("#errormessage").html("Thank you for submitting!")	}	
+			}

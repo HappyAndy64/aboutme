@@ -1,12 +1,12 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #ede81a;
+	background-color: #fab746;
 }
 .jumbotron {
 	background-color: #9eed1a;
 }
 .carousel-item img {
-	width: 70%;
+	width: 30%;
 	display: block;
 	margin: auto;
 
@@ -19,7 +19,7 @@ body {
 	margin: auto;
 }
 h3 {
-	font-size: 20px;
+	font-size: 25px;
 
 }
 body {
@@ -28,7 +28,8 @@ body {
 }
 
 #main-paragraph-tital {
-	font-size: 20px;
+	font-size: 25px;
+	padding-left: 10px;
 	font-family: 'Signika Negative', sans-serif;
 }
 .nav-link {
@@ -36,7 +37,7 @@ body {
 	font-family: 'Patua One', cursive;
 }
 .navbar-brand {
-	font-size: 300%;
+	font-size: 350%;
 	font-family: 'Acme', sans-serif;
 }
 #aboutus {
@@ -44,4 +45,38 @@ body {
 }
 #aboutus-me {
 	font-family: 'Oleo Script', cursive;
+}
+#messageform {
+	padding: 40px 10%;
+	font-size: 15px;
+}
+#head {
+	padding: 40px 10%;
+	font-size: 30px;
+}
+.modal-body {
+	font-size: 20px;
+}
+#comicButton {
+	padding-left: 10px;
+}
+.lightgreen {
+	background-color: #30ff3f;
+}
+#family {
+	width: 20%;
+}
+#aboutme {
+	font-size: 40px;
+	display: block;
+	margin: auto;
+}
+#jumbotron1 {
+	padding-left: 7%;
+}
+#jumbotron2 {
+	padding-left: 10%;
+}
+#titalboi {
+	padding-left: 10%
 }
